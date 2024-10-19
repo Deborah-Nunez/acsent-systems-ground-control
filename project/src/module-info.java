@@ -1,7 +1,6 @@
 module project {
     requires javafx.controls;
-    requires javafx.fxml;
-	requires javafx.graphics;  // Add this to support FXML
+    requires javafx.graphics;  
 
-    opens application to javafx.graphics, javafx.fxml;
+    opens application to javafx.graphics;
 }
